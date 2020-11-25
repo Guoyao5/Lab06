@@ -29,3 +29,10 @@ print(blueSG.maximum_velocity)
 
 blueSG.drive()
 
+toyota = ElectricCar('4', 5, 165)
+print(toyota.number_of_wheels)
+print(toyota.type_of_tank)
+print(toyota.seating_capacity)
+print(toyota.maximum_velocity)
+
+toyota.drive()
